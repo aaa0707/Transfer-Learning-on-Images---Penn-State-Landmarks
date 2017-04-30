@@ -8,6 +8,8 @@ This project explores transfer learning for image classification. It tries to cl
 The landmarks include the *Nittany Lion*, the *Old Main*, and the *Beaver Stadium*. Some examples are shown below.
 //Images
 
+This data was taken from Google Images. Training data includes 60 images per class and test data includes 25-30 images per class.
+
 We used two main ways to classify the images:
 1. SVM Classifier on Features extracted from **AlexNet**
 2. Replacing last layer of the **VGG16** network to re-train on new classes
@@ -18,6 +20,18 @@ We used two main ways to classify the images:
 
 *Required: Keras for Python and Tensorflow installed*
 
-VGG16 is a 16 layer neural network. We imported a Keras implementation of the VGG16 which is available with the Keras API package.
-Tensorflow was used as the backend for Keras.
+VGG16 is a 16 layer neural network trained on ImageNet dataset. We imported a Keras implementation of the VGG16 which is available with the Keras API package. Additionally, tensorflow was used as the backend for Keras.
+VGG16 was specifically chosen because it is a very deep network and is trained on various types of images. This gives the advantage of a very diverse set of features that the network can automatically extract. One disadvantage is that the feedforward step can get slow (0.5 sec in out case) on CPUs. Since our goal is to classify images accurately and to not focus on speed, we decided to go with the deep network.
+
+We removed the last layer of the network and added a new Fully (Densely) Connected Layer with 3 the three classes mentioned above. We decided to replace only 1 layer because of the scarcity of data. The training data involves only 60 images per class. Hence, training only 1 layer is quicker and more efficient with the less amount of data. Additionally, the diversity of features extracted in VGG16 until the second to last layer ensures that the features required for discrimination (and classification) of our particular dataset are not missing.
+
+##### Testing
+
+The data was tested on 25-30 separate images per class. **The accuracy recorded was 97%**
+
+The classfier correctly classified diverse images of the nittany lion including the following:
+
+The classifier also correctly classified some of these examples of old main and beaver stadium:
+
+These were the two cases that went wrong:
 
