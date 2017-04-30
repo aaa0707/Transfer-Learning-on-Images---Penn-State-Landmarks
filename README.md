@@ -7,11 +7,17 @@ This project explores transfer learning for image classification. It tries to cl
 
 The landmarks include the *Nittany Lion*, the *Old Main*, and the *Beaver Stadium*. Some examples are shown below.
 
-Beaver Stadium: ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Training_Example4_beaverstadium.jpg)
+Beaver Stadium:
 
-Nittany Lion: ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Training_Example2_nittanylion.jpg)
+![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Training_Example4_beaverstadium.jpg)
 
-Old Main: ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Training_Example1_oldmain.jpg)
+Nittany Lion:
+
+![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Training_Example2_nittanylion.jpg)
+
+Old Main:
+
+![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Training_Example1_oldmain.jpg)
 
 This data was taken from Google Images. Training data includes 60 images per class and test data includes 25-30 images per class.
 
@@ -36,11 +42,17 @@ The data was tested on 25-30 separate images per class. **The accuracy recorded 
 
 The classfier correctly classified the following images correctly:
 
-Nittany Lion: ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Testing_Example1_nittanylion.jpg)
+Nittany Lion:
 
-Old Main: ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Testing_Example2_oldmain.jpg)
+![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Testing_Example1_nittanylion.jpg)
 
-Beaver Stadium: ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Testing_Example3_beaverstadium.jpg)
+Old Main:
+
+![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Testing_Example2_oldmain.jpg)
+
+Beaver Stadium:
+
+![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Testing_Example3_beaverstadium.jpg)
 
 
 These were the only two cases that went wrong:
