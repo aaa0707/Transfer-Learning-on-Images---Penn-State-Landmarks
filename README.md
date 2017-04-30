@@ -35,7 +35,7 @@ AlexNet is a large, deep convolutional neural network used to classify 1.3 milli
 
 *Required: Keras for Python and Tensorflow installed*
 
-VGG16 is a 16 layer neural network trained on ImageNet dataset. We imported a Keras implementation of the VGG16 which is available with the Keras API package. Additionally, tensorflow was used as the backend for Keras.
+VGG16 [1] is a 16 layer neural network trained on ImageNet dataset. We imported a Keras implementation of the VGG16 which is available with the Keras API package. Additionally, tensorflow was used as the backend for Keras.
 VGG16 was specifically chosen because it is a very deep network and is trained on various types of images. This gives the advantage of a very diverse set of features that the network can automatically extract. One disadvantage is that the feedforward step can get slow (0.5 sec in out case) on CPUs. Since our goal is to classify images accurately and to not focus on speed, we decided to go with the deep network. The model can be downloaded [here](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/model.yaml)
 
 We removed the last layer of the network and added a new Fully (Densely) Connected Layer with 3 the three classes mentioned above. We decided to replace only 1 layer because of the scarcity of data. The training data involves only 60 images per class. Hence, training only 1 layer is quicker and more efficient with the less amount of data. Additionally, the diversity of features extracted in VGG16 until the second to last layer ensures that the features required for discrimination (and classification) of our particular dataset are not missing.
@@ -69,4 +69,5 @@ These were the only two cases that went wrong:
 
 ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/ErrorCase1.jpg)
 
-
+####Refereces
+[1] Simonyan, K., & Zisserman, A. (2015, April 10). Retrieved from https://arxiv.org/pdf/1409.1556.pdf
