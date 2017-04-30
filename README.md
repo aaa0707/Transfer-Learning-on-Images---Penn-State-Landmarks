@@ -35,7 +35,10 @@ The data was tested on 25-30 separate images per class. **The accuracy recorded 
 
 The following images were classified incorrectly:
 
-1. 
+1) Nittany Lion Classified as the Old Main:
+
+![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/SVMErrorCase1.jpg)
+
 
 
 ### Transfer Learning on VGG16 by replacing last layer
