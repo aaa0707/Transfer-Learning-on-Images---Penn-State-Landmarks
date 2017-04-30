@@ -44,7 +44,14 @@ Beaver Stadium: ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Imag
 
 The classifier also correctly classified some of these examples of old main and beaver stadium:
 
-These were the two cases that went wrong:
+These were the only two cases that went wrong:
 
+1) Beaver Stadium Classified as the Old Main:
+
+![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/ErrorCase2.jpg)
+
+2) Old Main Classified as the Beaver Stadium:
+
+![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/ErrorCase1.jpg)
 
 
