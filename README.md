@@ -1,4 +1,4 @@
-# Tranfer Learning for classifying Penn State Landmarks
+# Transfer Learning for classifying Penn State Landmarks
 **Aditya Agarwal,
 Sahil Mishra**
 
