@@ -1,7 +1,7 @@
 # Transfer-Learning-on-Images---Penn-State-Landmarks
 
-Aditya Agarwal,
-Sahil Mishra
+**Aditya Agarwal,
+Sahil Mishra**
 
 This project explores transfer learning for image classification. It tries to classify various landmarks at The Pennsylvania State University into different classes.
 
@@ -22,10 +22,14 @@ Old Main:
 This data was taken from Google Images. Training data includes 60 images per class and test data includes 25-30 images per class.
 
 We used two main ways to classify the images:
-1. SVM Classifier on Features extracted from **AlexNet**
+1. SVM Classifier on Features extracted from **AlexNet** using PyTorch, a deep learning framework.
 2. Replacing last layer of the **VGG16** network to re-train on new classes
 
 ### Transfer Learning using SVM Classifier using AlexNet
+
+*Required: PyTorch, scikit-learn installed*
+
+AlexNet is a large, deep convolutional neural network used to classify 1.3 million hight resolution images in the LSRVC-2010 Imagenet trainig set into 1000 different classes. The last 
 
 ### Transfer Learning on VGG16 by replacing last layer
 
