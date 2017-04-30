@@ -69,5 +69,5 @@ These were the only two cases that went wrong:
 
 ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/ErrorCase1.jpg)
 
-####Refereces
+#### Refereces
 [1] Simonyan, K., & Zisserman, A. (2015, April 10). Retrieved from https://arxiv.org/pdf/1409.1556.pdf
