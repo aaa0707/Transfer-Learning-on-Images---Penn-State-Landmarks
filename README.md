@@ -2,7 +2,7 @@
 **Aditya Agarwal,
 Sahil Mishra**
 
-This project explores transfer learning for image classification. It tries to classify various landmarks at The Pennsylvania State University into different classes.
+This project explores transfer learning for image classification. It tries to classify various landmarks at The Pennsylvania State University into different classes. AAA
 
 The landmarks include the *Nittany Lion*, the *Old Main*, and the *Beaver Stadium*. Some examples are shown below.
 
