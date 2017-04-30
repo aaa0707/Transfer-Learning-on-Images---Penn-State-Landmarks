@@ -33,6 +33,10 @@ AlexNet is a large, deep convolutional neural network used to classify 1.3 milli
 ### Testing
 The data was tested on 25-30 separate images per class. **The accuracy recorded was 96.3%**
 
+The following images were classified incorrectly:
+
+1. 
+
 
 ### Transfer Learning on VGG16 by replacing last layer
 
