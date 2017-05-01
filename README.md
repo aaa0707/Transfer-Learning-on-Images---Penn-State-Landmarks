@@ -2,7 +2,7 @@
 **Aditya Agarwal,
 Sahil Mishra**
 
-This project explores transfer learning for image classification. It tries to classify various landmarks at The Pennsylvania State University into different classes.
+This project explores transfer learning for image classification. It tries to classify various landmarks at The Pennsylvania State University into different classes. Since the size of our dataset is not large enough to train a CNN from scratch , we try to take advantage of pre-trained CNNs that have been trained on ImageNET (1.2 million images with 1000 classes). We use deep learning frameworks like PyTorch, Keras with TensorFlow and Machine Learning libraries like Schikit-Learn (for Python) to extract feature vectors from Alexnet and fine tune the VGG16 network. 
 
 The landmarks include the *Nittany Lion*, the *Old Main*, and the *Beaver Stadium*. Some examples are shown below.
 
