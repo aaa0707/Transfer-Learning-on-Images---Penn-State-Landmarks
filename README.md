@@ -66,15 +66,9 @@ Beaver Stadium:
 ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Testing_Example3_beaverstadium.jpg)
 
 
-These were the only two cases that went wrong:
+The following images were classified incorrectly:
 
-1) Beaver Stadium Classified as the Old Main:
-
-![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/ErrorCase2.jpg)
-
-2) Old Main Classified as the Beaver Stadium:
-
-![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/ErrorCase1.jpg)
+![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Misclassifications_VGG.png)
 
 #### Refereces
 [1] Simonyan, K., & Zisserman, A. (2015, April 10). Retrieved from https://arxiv.org/pdf/1409.1556.pdf
