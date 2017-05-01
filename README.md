@@ -51,7 +51,7 @@ We removed the last layer of the network and added a new Fully (Densely) Connect
 
 The data was tested on 25-30 separate images per class. **The accuracy recorded was 97%**
 
-The classfier correctly classified the following images correctly:
+The following two images were classified incorrectly:
 
 ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Classifications.png)
 
