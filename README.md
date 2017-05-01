@@ -90,4 +90,4 @@ These were the only two cases that went wrong:
 #### Refereces
 [1] Simonyan, K., & Zisserman, A. (2015, April 10). Retrieved from https://arxiv.org/pdf/1409.1556.pdf
 
-[2] Krizhevsky, A., Sutskever, I., & Hinton G (NIPS 2012). Retrieve from http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks
+[2] Krizhevsky, A., Sutskever, I., & Hinton G (NIPS 2012). Retrieved from http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks
