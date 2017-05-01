@@ -56,7 +56,7 @@ The classfier correctly classified the following images correctly:
 ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Classifications.png)
 
 
-The following images were classified incorrectly:
+The following are some of the images that were classified correctly:
 
 ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Misclassifications_VGG.png)
 
