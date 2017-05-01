@@ -36,19 +36,7 @@ The data was tested on 25-30 separate images per class. **The accuracy recorded 
 
 The following images were classified incorrectly:
 
-1) Nittany Lion Classified as the Old Main:
-
-![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/SVMErrorCase1.jpg)
-
-2) Nittany Lion Classified as the Old Main:
-
-![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/SVMErrorCase2.jpg)
-
-3) Old Main Classified as the Beaver Stadium:
-
-![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/SVMErrorCase3.jpg)
-
-
+![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Misclassifications.png)
 
 ### Transfer Learning on VGG16 by replacing last layer
 
