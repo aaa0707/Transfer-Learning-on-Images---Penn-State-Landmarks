@@ -6,7 +6,7 @@ This project explores transfer learning for image classification. It tries to cl
 
 The landmarks include the *Nittany Lion*, the *Old Main*, and the *Beaver Stadium*. Some examples are shown below.
 
-![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Dataset.png)
+![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Data.png)
 
 This data was taken from Google Images. Our training set includes about 65 images per class and test data includes 25-30 images per class.
 
