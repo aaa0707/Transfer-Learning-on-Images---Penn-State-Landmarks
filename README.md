@@ -4,11 +4,22 @@ Sahil Mishra**
 
 This project explores transfer learning for image classification. It tries to classify various landmarks at The Pennsylvania State University into different classes. Since the size of our dataset is not large enough to train a CNN from scratch, we try to take advantage of pre-trained CNNs that have been trained on *ImageNET* (1.2 million images with 1000 classes). We use deep learning frameworks like *PyTorch*, *Keras with TensorFlow* and Machine Learning libraries like *Scikit-Learn* (for Python) to extract feature vectors from Alexnet and fine tune the VGG16 network. 
 
+# Platform and Frameworks
+
+We used Python to develop oru product. 
+
+1. PyTorch is a python package that provides high-level features like Tensor computation (like numpy) and deep neural networks built on tape-based autograd system. 
+2. Keras (With TensorFlow backend) is a high-level neural networks API, written in Python and capable of running on top of either TensorFLow or Theano. It was developed to enable fast experimentation with various deep nueral networks. 
+3. Scikit-Learn is an open source Machine Learning library in Python that provides simple and efficient tools for data mining and data analyis. It is built on NumPy, SciPy, and matplotlib.
+
+# Dataset
 The landmarks include the *Nittany Lion*, the *Old Main*, and the *Beaver Stadium*. Some examples are shown below.
 
 ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Data.png)
 
-This data was taken from Google Images. Our training set includes about 65 images per class and test data includes 25-30 images per class.
+This data was taken from Google Images. We used Python to scrape 100 images from Google Images at time. After cleaning and removing unwatned images, we ended up with a training set that includes about 65 images per class and test data that includes 25-30 images per class.
+
+# Approach
 
 We used two main ways to classify the images:
 1. SVM Classifier on Features extracted from **AlexNet** using PyTorch, a deep learning framework.
