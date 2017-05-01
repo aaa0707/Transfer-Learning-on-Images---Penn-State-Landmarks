@@ -18,7 +18,7 @@ Old Main:
 
 ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Training_Example1_oldmain.jpg)
 
-This data was taken from Google Images. Training data includes 60 images per class and test data includes 25-30 images per class.
+This data was taken from Google Images. Our training set includes about 65 images per class and test data includes 25-30 images per class.
 
 We used two main ways to classify the images:
 1. SVM Classifier on Features extracted from **AlexNet** using PyTorch, a deep learning framework.
