@@ -53,17 +53,7 @@ The data was tested on 25-30 separate images per class. **The accuracy recorded 
 
 The classfier correctly classified the following images correctly:
 
-Nittany Lion:
-
-![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Testing_Example1_nittanylion.jpg)
-
-Old Main:
-
-![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Testing_Example2_oldmain.jpg)
-
-Beaver Stadium:
-
-![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Testing_Example3_beaverstadium.jpg)
+![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Classifications.png)
 
 
 The following images were classified incorrectly:
