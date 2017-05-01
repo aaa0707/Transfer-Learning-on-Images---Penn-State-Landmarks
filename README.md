@@ -17,7 +17,7 @@ The landmarks include the *Nittany Lion*, the *Old Main*, and the *Beaver Stadiu
 
 ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Data.png)
 
-This data was taken from Google Images. We used Python to scrape 100 images from Google Images at time. After cleaning and removing unwatned images, we ended up with a training set that includes about 65 images per class and test data that includes 25-30 images per class.
+This data was taken from Google Images. We used Python to scrape 100 images from Google Images at a time. After cleaning and removing unwanted images, we ended up with a training set that includes about 65 images per class and test data that includes 25-30 images per class.
 
 ## Approach
 
