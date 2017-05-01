@@ -8,9 +8,9 @@ This project explores transfer learning for image classification. It tries to cl
 
 We used Python to develop our system. 
 
-1. PyTorch is a python package that provides high-level features like Tensor computation (like numpy) and deep neural networks built on tape-based autograd system. 
-2. Keras (With TensorFlow backend) is a high-level neural networks API, written in Python and capable of running on top of either TensorFLow or Theano. It was developed to enable fast experimentation with various deep nueral networks. 
-3. Scikit-Learn is an open source Machine Learning library in Python that provides simple and efficient tools for data mining and data analyis. It is built on NumPy, SciPy, and matplotlib.
+1. **PyTorch** is a python package that provides high-level features like Tensor computation (like numpy) and deep neural networks built on tape-based autograd system. 
+2. **Keras** (With **TensorFlow** backend) is a high-level neural networks API, written in Python and capable of running on top of either TensorFLow or Theano. It was developed to enable fast experimentation with various deep nueral networks. 
+3. **Scikit-Learn** is an open source Machine Learning library in Python that provides simple and efficient tools for data mining and data analyis. It is built on NumPy, SciPy, and matplotlib.
 
 ## Dataset
 The landmarks include the *Nittany Lion*, the *Old Main*, and the *Beaver Stadium*. Some examples are shown below.
