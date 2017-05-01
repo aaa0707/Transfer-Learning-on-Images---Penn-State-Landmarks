@@ -25,20 +25,20 @@ We used two main ways to classify the images:
 1. SVM Classifier on Features extracted from **AlexNet** using PyTorch, a deep learning framework.
 2. Replacing last layer of the **VGG16** network to re-train on new classes
 
-### Transfer Learning using SVM Classifier using AlexNet
+### 1. Transfer Learning using SVM Classifier using AlexNet
 
 *Required: PyTorch, scikit-learn installed*
 
 AlexNet is a large, deep convolutional neural network used to classify 1.3 million hight resolution images in the LSRVC-2010 Imagenet trainig set into 1000 different classes. The last fully connected of *Alexnet* is removed and this model is used to compute 4096 dimensional vectors for each image, which is preprocessed before fed into the model, in our training set. These vectors, or Tensors, are converted into numpy arrays and are used as features for our *SVM classifier* which is implemented using the *sklearn* library for Python. 
 
-### Testing
+#### Testing
 The data was tested on 25-30 separate images per class. **The accuracy recorded was 96.3%**. We used a simple accuracy calculation model where we calculated the total percentage of images that were classified correctly by our system. A total of 79 images out of 82 images were classified correctly. 
 
 The following images were classified incorrectly:
 
 ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Misclassifications.png)
 
-### Transfer Learning on VGG16 by replacing last layer
+### 2. Transfer Learning on VGG16 by replacing last layer
 
 *Required: Keras for Python and Tensorflow installed*
 
@@ -47,7 +47,7 @@ VGG16 was specifically chosen because it is a very deep network and is trained o
 
 We removed the last layer of the network and added a new Fully (Densely) Connected Layer with 3 the three classes mentioned above. We decided to replace only 1 layer because of the scarcity of data. The training data involves only 60 images per class. Hence, training only 1 layer is quicker and more efficient with the less amount of data. Additionally, the diversity of features extracted in VGG16 until the second to last layer ensures that the features required for discrimination (and classification) of our particular dataset are not missing.
 
-##### Testing
+#### Testing
 
 The data was tested on 25-30 separate images per class. **The accuracy recorded was 97%**
 
