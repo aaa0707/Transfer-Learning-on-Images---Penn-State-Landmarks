@@ -13,7 +13,7 @@ We used Python to develop our system.
 3. **Scikit-Learn** is an open source Machine Learning library in Python that provides simple and efficient tools for data mining and data analyis. It is built on NumPy, SciPy, and matplotlib.
 
 ## Dataset
-The landmarks include the *Nittany Lion*, the *Old Main*, and the *Beaver Stadium*. Some examples are shown below.
+The landmarks include the *Nittany Lion*, the *Old Main*, and the *Beaver Stadium*. Some examples are shown below. The dataset can be downloaded [here](https://drive.google.com/file/d/0B1KfUOg7gYP8Y282Z1lEYWZHLXc/view?usp=sharing).
 
 ![alt text](https://github.com/aaa0707/Transfer-Learning-on-Images---Penn-State-Landmarks/blob/master/Data.png)
 
