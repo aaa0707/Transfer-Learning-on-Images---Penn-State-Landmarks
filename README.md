@@ -28,7 +28,7 @@ We used two main ways to classify the images:
 
 *Required: PyTorch, scikit-learn installed*
 
-AlexNet is a large, deep convolutional neural network used to classify 1.3 million hight resolution images in the LSRVC-2010 Imagenet trainig set into 1000 different classes. The last fully connected of *Alexnet* is removed and this model is used to computer 4096 dimensional vectors for each image in our training set. These vectors, or Tensors, are converted in numpy arrays and are used as features for our *SVM classifier* which is implemented using the *sklearn* library for Python. 
+AlexNet is a large, deep convolutional neural network used to classify 1.3 million hight resolution images in the LSRVC-2010 Imagenet trainig set into 1000 different classes. The last fully connected of *Alexnet* is removed and this model is used to compute 4096 dimensional vectors for each image, which is preprocessed before fed into the model, in our training set. These vectors, or Tensors, are converted into numpy arrays and are used as features for our *SVM classifier* which is implemented using the *sklearn* library for Python. 
 
 ### Testing
 The data was tested on 25-30 separate images per class. **The accuracy recorded was 96.3%**
