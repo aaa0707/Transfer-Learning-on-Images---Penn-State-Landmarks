@@ -49,7 +49,7 @@ We removed the last layer of the network and added a new Fully (Densely) Connect
 
 #### Testing
 
-The data was tested on 25-30 separate images per class. **The accuracy recorded was 97%**
+The data was tested on 25-30 separate images per class. **The accuracy recorded was 98%**
 
 The following some of the images were classified correctly:
 
